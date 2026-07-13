@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-alpine text-ink font-body antialiased;
+}
+
+h1, h2, h3, h4 {
+  @apply font-display text-forest;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-full bg-federal px-6 py-3
+         text-sm font-semibold text-white transition-colors hover:bg-red-700
+         focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2
+         focus-visible:outline-federal;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center rounded-full border border-forest
+         px-6 py-3 text-sm font-semibold text-forest transition-colors
+         hover:bg-forest hover:text-white;
+}
+
+.container-page {
+  @apply mx-auto w-full max-w-content px-4 sm:px-6 lg:px-8;
+}
+
+.input-field {
+  @apply w-full rounded-lg border border-line bg-white px-4 py-2.5 text-sm
+         text-ink placeholder:text-ink/40 focus:border-forest focus:outline-none;
+}
