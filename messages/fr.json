@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "home": { "title": "Initiative Protection des Forêts | Initiative populaire fédérale suisse", "description": "Protégez nos forêts des éoliennes. Exigeons une protection du climat sans destruction de la nature et des habitats." },
+    "background": { "title": "De quoi s'agit-il", "description": "Pourquoi l'initiative interdit les éoliennes en forêt." },
+    "arguments": { "title": "Arguments", "description": "Trois raisons de soutenir l'initiative de protection des forêts." },
+    "initiativeText": { "title": "Texte de l'initiative", "description": "Le texte complet de l'initiative populaire fédérale suisse." },
+    "committee": { "title": "Comité d'initiative", "description": "Les personnes derrière l'initiative de protection des forêts." },
+    "news": { "title": "Actualités", "description": "Dernières actualités sur l'initiative de protection des forêts." },
+    "support": { "title": "Soutenir & S'engager", "description": "Soutenez l'initiative par un don ou en rejoignant le comité." },
+    "legal": { "title": "Mentions légales", "description": "Mentions légales de l'initiative de protection des forêts." },
+    "privacy": { "title": "Confidentialité", "description": "Politique de confidentialité de l'initiative de protection des forêts." }
+  },
+  "nav": {
+    "background": "De quoi s'agit-il",
+    "arguments": "Arguments",
+    "initiativeText": "Texte de l'initiative",
+    "committee": "Comité",
+    "news": "Actualités",
+    "support": "Soutenir & S'engager"
+  },
+  "hero": {
+    "title": "Protégeons nos forêts des éoliennes",
+    "subtitle": "Initiative populaire fédérale contre la destruction de nos forêts par les éoliennes.",
+    "cta": "Initiative en PDF",
+    "achievement": "Le 25 septembre 2025, la Chancellerie fédérale a confirmé : l'initiative a officiellement abouti avec 107'693 signatures valables."
+  },
+  "problem": {
+    "title": "Contre la destruction de nos forêts par les éoliennes",
+    "body1": "La protection de la nature est menacée par la construction de grands parcs éoliens en Suisse. Au nom du climat, on n'hésite pas à défricher des espaces naturels essentiels pour y ériger d'immenses éoliennes. Abattre des arbres pour protéger le climat est un non-sens absolu.",
+    "body2": "En Suisse, plusieurs centaines de parcs éoliens et bien plus de 1000 éoliennes sont prévus. Beaucoup doivent être construites en pleine forêt ou en lisière. Chaque éolienne installée nécessite le défrichement d'une surface équivalente à un terrain de football.",
+    "body3": "Cette initiative n'interdit pas la construction d'éoliennes en Suisse, mais exige qu'elles soient planifiées et construites clairement en dehors des forêts et pâturages boisés."
+  },
+  "arguments": {
+    "title": "3 raisons de soutenir cette initiative",
+    "items": [
+      { "title": "OUI à la protection de la nature", "text": "Les forêts sont menacées par la construction d'éoliennes. Chaque éolienne nécessite le défrichement d'une surface équivalente à un terrain de football." },
+      { "title": "OUI à la protection animale", "text": "Oiseaux et chauves-souris sont tués par les éoliennes. Le défrichement détruit l'habitat de nombreux animaux et insectes." },
+      { "title": "OUI à la protection du climat", "text": "Le moyen le plus efficace de protéger le climat est de préserver les espaces naturels, pas de les sacrifier." }
+    ]
+  },
+  "support": {
+    "formTitle": "Soutenir l'initiative",
+    "name": "Nom",
+    "firstName": "Prénom",
+    "role": "Titre / Fonction",
+    "organisation": "Organisation",
+    "email": "E-mail",
+    "address": "Adresse",
+    "zip": "NPA",
+    "city": "Localité",
+    "canton": "Canton",
+    "remarks": "Remarques",
+    "wantsPaymentSlip": "Je souhaite soutenir financièrement l'initiative. Merci de m'envoyer un bulletin de versement.",
+    "wantsCommittee": "Je souhaite rejoindre le comité de soutien.",
+    "wantsNewsletter": "Je souhaite m'abonner à la newsletter.",
+    "submit": "Envoyer",
+    "success": "Merci pour votre soutien !",
+    "error": "Une erreur s'est produite. Veuillez réessayer."
+  },
+  "newsletter": {
+    "title": "S'abonner à la newsletter",
+    "submit": "S'abonner",
+    "success": "Vous êtes maintenant abonné(e).",
+    "alreadySubscribed": "Cet e-mail est déjà abonné.",
+    "error": "Une erreur s'est produite. Veuillez réessayer."
+  },
+  "donate": {
+    "title": "Soutenez-nous dès maintenant avec un don",
+    "org": "Association pour la protection de la nature et la démocratie",
+    "address": "3000 Berne",
+    "bank": "Banque Cantonale de Fribourg",
+    "iban": "CH84 0076 8300 1728 1200 5"
+  },
+  "news": {
+    "title": "Actualités",
+    "more": "En savoir plus",
+    "all": "Toutes les actualités"
+  },
+  "committee": {
+    "title": "Comité d'initiative",
+    "intro": "Le comité d'initiative, composé des signataires ci-dessous, est habilité à retirer cette initiative populaire à la majorité absolue de ses membres encore éligibles au vote."
+  },
+  "footer": {
+    "orgLine": "Initiative populaire fédérale « Contre la destruction de nos forêts par les éoliennes (Initiative de protection des forêts) ».",
+    "association": "Association pour la protection de la nature et la démocratie, Case postale, 3001 Berne",
+    "secondInitiative": "Voir notre 2e initiative",
+    "legal": "Mentions légales",
+    "privacy": "Confidentialité",
+    "copyright": "Copyright © 2026 waldschutz-ja.ch"
+  }
+}
