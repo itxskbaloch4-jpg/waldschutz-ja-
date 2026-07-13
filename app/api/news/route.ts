@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { connectDB } from "@/lib/mongodb";
 import News from "@/lib/models/News";
+import { isAdminAuthed } from "@/lib/adminAuth";
 import { z } from "zod";
 
 const createSchema = z.object({
@@ -20,8 +21,7 @@ export async function GET(req: NextRequest) {
 }
 
 export async function POST(req: NextRequest) {
-  const token = req.headers.get("x-admin-token");
-  if (token !== process.env.ADMIN_TOKEN) {
+  if (!isAdminAuthed(req)) {
     return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   }
   const parsed = createSchema.safeParse(await req.json().catch(() => null));
