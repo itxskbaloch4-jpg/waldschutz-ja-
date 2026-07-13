@@ -10,7 +10,7 @@ const intlMiddleware = createMiddleware({
 
 export default function middleware(req: NextRequest) {
   if (req.nextUrl.pathname.startsWith("/admin") && req.nextUrl.pathname !== "/admin/login") {
-    const authed = req.cookies.get("admin_session")?.value === "true";
+    const authed = req.cookies.get("admin_session")?.value === process.env.ADMIN_TOKEN;
     if (!authed) {
       return NextResponse.redirect(new URL("/admin/login", req.url));
     }
