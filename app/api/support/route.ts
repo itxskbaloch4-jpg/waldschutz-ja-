@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { connectDB } from "@/lib/mongodb";
 import Supporter from "@/lib/models/Supporter";
+import { isAdminAuthed } from "@/lib/adminAuth";
 import { z } from "zod";
 
 const schema = z.object({
@@ -19,13 +20,21 @@ const schema = z.object({
   wantsNewsletter: z.boolean().optional(),
 });
 
+export async function GET(req: NextRequest) {
+  if (!isAdminAuthed(req)) {
+    return NextResponse.json({ error: "unauthorized" }, { status: 401 });
+  }
+  await connectDB();
+  const items = await Supporter.find().sort({ createdAt: -1 }).lean();
+  return NextResponse.json(items);
+}
+
 export async function POST(req: NextRequest) {
   const body = await req.json().catch(() => null);
   const parsed = schema.safeParse(body);
   if (!parsed.success) {
     return NextResponse.json({ error: parsed.error.flatten() }, { status: 400 });
   }
-
   await connectDB();
   await Supporter.create(parsed.data);
   return NextResponse.json({ ok: true }, { status: 201 });
