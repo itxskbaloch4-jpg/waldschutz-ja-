@@ -14,14 +14,18 @@ const config: Config = {
         ink: "#0E0E0E",
         line: "#E8E4D8",
       },
+
       fontFamily: {
-  display: ["var(--font-inter)", "sans-serif"],
-  body: ["var(--font-inter)", "sans-serif"],
-},idth: {
+        display: ["var(--font-inter)", "sans-serif"],
+        body: ["var(--font-inter)", "sans-serif"],
+      },
+
+      maxWidth: {
         content: "1200px",
       },
     },
   },
   plugins: [require("@tailwindcss/typography")],
 };
+
 export default config;
