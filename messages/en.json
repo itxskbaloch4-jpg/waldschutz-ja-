@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "home": { "title": "Forest Protection Initiative | Swiss Federal Popular Initiative", "description": "Protect our forests from wind turbines. Demanding climate protection without destroying nature and habitats." },
+    "background": { "title": "The Issue", "description": "Why the Forest Protection Initiative bans wind turbines in forests." },
+    "arguments": { "title": "Arguments", "description": "Three reasons to support the Forest Protection Initiative." },
+    "initiativeText": { "title": "Initiative Text", "description": "The full wording of the Swiss federal popular initiative." },
+    "committee": { "title": "Initiative Committee", "description": "The people behind the Forest Protection Initiative." },
+    "news": { "title": "News", "description": "Latest updates on the Forest Protection Initiative." },
+    "support": { "title": "Donate & Get Involved", "description": "Support the Forest Protection Initiative with a donation or as a committee member." },
+    "legal": { "title": "Legal Notice", "description": "Legal notice of the Forest Protection Initiative." },
+    "privacy": { "title": "Privacy Policy", "description": "Privacy policy of the Forest Protection Initiative." }
+  },
+  "nav": {
+    "background": "The Issue",
+    "arguments": "Arguments",
+    "initiativeText": "Initiative Text",
+    "committee": "Committee",
+    "news": "News",
+    "support": "Donate & Get Involved"
+  },
+  "hero": {
+    "title": "Protect our forests from wind turbines",
+    "subtitle": "Swiss federal popular initiative against the destruction of our forests by wind turbines.",
+    "cta": "Initiative as PDF",
+    "achievement": "On 25 September 2025, the Federal Chancellery confirmed: the Forest Protection Initiative officially qualified with 107,693 valid signatures."
+  },
+  "problem": {
+    "title": "Against the destruction of our forests by wind turbines",
+    "body1": "Nature conservation is under threat from the construction of large wind farms in Switzerland. In the name of climate protection, no one hesitates to clear vital natural areas to build enormous wind turbines. Felling trees to protect the climate is complete nonsense.",
+    "body2": "Several hundred wind farms and well over 1,000 wind turbines are planned across Switzerland. Many are intended to be built in the middle of forests or directly at the forest edge. Each installed turbine requires clearing an area the size of a football pitch.",
+    "body3": "This initiative does not ban the construction of wind turbines in Switzerland — it requires that they be planned and built clearly outside forests and forest pastures."
+  },
+  "arguments": {
+    "title": "3 reasons to support this initiative",
+    "items": [
+      { "title": "YES to protecting nature", "text": "Forests are threatened by the construction of wind turbines. Each turbine requires clearing an area the size of a football pitch." },
+      { "title": "YES to animal welfare", "text": "Birds and bats are struck and killed by wind turbines. Clearing destroys the habitat of many animals and insects." },
+      { "title": "YES to climate protection", "text": "The most effective way to protect the climate is to preserve natural areas, not sacrifice them." }
+    ]
+  },
+  "support": {
+    "formTitle": "Support the initiative",
+    "name": "Last name",
+    "firstName": "First name",
+    "role": "Title / Function",
+    "organisation": "Organisation",
+    "email": "Email",
+    "address": "Address",
+    "zip": "Postal code",
+    "city": "City",
+    "canton": "Canton",
+    "remarks": "Remarks",
+    "wantsPaymentSlip": "I would like to support the initiative financially. Please send me a payment slip.",
+    "wantsCommittee": "I would like to join the support committee.",
+    "wantsNewsletter": "I would like to subscribe to the newsletter.",
+    "submit": "Send",
+    "success": "Thank you for your support!",
+    "error": "Something went wrong. Please try again."
+  },
+  "newsletter": {
+    "title": "Subscribe to the newsletter",
+    "submit": "Subscribe",
+    "success": "You are now subscribed.",
+    "alreadySubscribed": "This email is already subscribed.",
+    "error": "Something went wrong. Please try again."
+  },
+  "donate": {
+    "title": "Support us now with a donation",
+    "org": "Association for Nature Conservation and Democracy",
+    "address": "3000 Bern",
+    "bank": "Fribourg Cantonal Bank",
+    "iban": "CH84 0076 8300 1728 1200 5"
+  },
+  "news": {
+    "title": "News",
+    "more": "Learn more",
+    "all": "All news"
+  },
+  "committee": {
+    "title": "Initiative Committee",
+    "intro": "The initiative committee, consisting of the signatories listed below, is entitled to withdraw this popular initiative by an absolute majority of its still-eligible members."
+  },
+  "footer": {
+    "orgLine": "Swiss federal popular initiative \"Against the destruction of our forests by wind turbines (Forest Protection Initiative)\".",
+    "association": "Association for Nature Conservation and Democracy, P.O. Box, 3001 Bern",
+    "secondInitiative": "View our 2nd initiative",
+    "legal": "Legal Notice",
+    "privacy": "Privacy Policy",
+    "copyright": "Copyright © 2026 waldschutz-ja.ch"
+  }
+}
