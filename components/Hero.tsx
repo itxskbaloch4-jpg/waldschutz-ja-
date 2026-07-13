@@ -9,14 +9,14 @@ export default function Hero() {
         <div>
           <h1 className="text-3xl font-bold leading-tight sm:text-4xl md:text-5xl">{t("title")}</h1>
           <p className="mt-4 max-w-md text-white/80">{t("subtitle")}</p>
-          <a>
-            href="https://waldschutz-ja.ch/wp-content/uploads/2024/02/17138_PAYSAGE_LIBRE_SIMPLE_INITIATIVE_A4_DE_WEB_MOBILE_FORET_FR.pdf"
-            className="btn-primary mt-8"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {t("cta")}
-          </a>
+        <a
+  href="https://waldschutz-ja.ch/wp-content/uploads/2024/02/17138_PAYSAGE_LIBRE_SIMPLE_INITIATIVE_A4_DE_WEB_MOBILE_FORET_FR.pdf"
+  className="btn-primary mt-8"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  {t("cta")}
+</a>
         </div>
         <div className="relative h-64 w-full sm:h-80 md:h-96">
           <Image
