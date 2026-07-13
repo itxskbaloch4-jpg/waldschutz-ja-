@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "home": { "title": "Waldschutz-Initiative | Eidg. Volksinitiative gegen Waldzerstörung", "description": "Schützt unsere Wälder vor Windkraftanlagen. Fordert Klimaschutz ohne Zerstörung von Natur und Lebensräumen." },
+    "background": { "title": "Worum es geht", "description": "Warum die Waldschutz-Initiative Windkraftanlagen im Wald verbietet." },
+    "arguments": { "title": "Argumente", "description": "Drei Gründe, die Waldschutz-Initiative zu unterstützen." },
+    "initiativeText": { "title": "Initiativtext", "description": "Der vollständige Wortlaut der Eidgenössischen Volksinitiative." },
+    "committee": { "title": "Initiativkomitee", "description": "Die Personen hinter der Waldschutz-Initiative." },
+    "news": { "title": "News", "description": "Aktuelle Meldungen zur Waldschutz-Initiative." },
+    "support": { "title": "Spenden & Engagieren", "description": "Unterstützen Sie die Waldschutz-Initiative mit einer Spende oder als Komiteemitglied." },
+    "legal": { "title": "Impressum", "description": "Impressum der Waldschutz-Initiative." },
+    "privacy": { "title": "Datenschutz", "description": "Datenschutzerklärung der Waldschutz-Initiative." }
+  },
+  "nav": {
+    "background": "Worum es geht",
+    "arguments": "Argumente",
+    "initiativeText": "Initiativtext",
+    "committee": "Komitee",
+    "news": "News",
+    "support": "Spenden & Engagieren"
+  },
+  "hero": {
+    "title": "Schützt unsere Wälder vor Windkraftanlagen",
+    "subtitle": "Eidgenössische Volksinitiative gegen die Zerstörung unserer Wälder durch Windturbinen.",
+    "cta": "Initiative als PDF",
+    "achievement": "Die Bundeskanzlei bestätigte am 25. September 2025: Die Waldschutz-Initiative ist mit 107'693 gültigen Unterschriften offiziell zustande gekommen."
+  },
+  "problem": {
+    "title": "Gegen die Zerstörung unserer Wälder durch Windturbinen",
+    "body1": "Der Naturschutz ist durch die Errichtung grosser Windparks in der Schweiz gefährdet. Im Namen des Klimaschutzes schreckt man nicht vor der Abholzung wichtiger Naturräume zurück, um dort riesige Windkraftanlagen zu errichten. Das Abholzen von Bäumen zum Schutz des Klimas ist absoluter Unsinn.",
+    "body2": "In der Schweiz sind mehrere hundert Windparks und weit über 1000 Windkraftanlagen vorgesehen. Viele sollen mitten im Wald oder direkt am Waldrand errichtet werden. Für jede installierte Windkraftanlage müsste eine Fläche von einem Fussballfeld gerodet werden.",
+    "body3": "Diese Initiative verbietet nicht die Errichtung von Windkraftanlagen in der Schweiz, sondern verlangt, dass diese deutlich ausserhalb von Wäldern und Waldweiden geplant und gebaut werden."
+  },
+  "arguments": {
+    "title": "3 Gründe, diese Initiative zu unterstützen",
+    "items": [
+      { "title": "JA zum Schutz der Natur", "text": "Die Wälder sind durch die Errichtung von Windkraftanlagen bedroht. Für jede Windkraftanlage muss die Fläche eines Fussballfeldes gerodet werden." },
+      { "title": "JA zum Tierschutz", "text": "Vögel und Fledermäuse werden von Windrädern erfasst und sterben. Die Rodung zerstört den Lebensraum vieler Tiere und Insekten." },
+      { "title": "JA zum Klimaschutz", "text": "Der effektivste Weg, das Klima zu schützen, besteht darin, Naturräume zu erhalten und nicht zu opfern." }
+    ]
+  },
+  "support": {
+    "formTitle": "Initiative unterstützen",
+    "name": "Name",
+    "firstName": "Vorname",
+    "role": "Titel / Funktion",
+    "organisation": "Organisation",
+    "email": "E-Mail",
+    "address": "Adresse",
+    "zip": "PLZ",
+    "city": "Ort",
+    "canton": "Kanton",
+    "remarks": "Bemerkungen",
+    "wantsPaymentSlip": "Ich möchte die Initiative finanziell unterstützen. Bitte senden Sie mir einen Einzahlungsschein.",
+    "wantsCommittee": "Ich möchte dem Unterstützungskomitee beitreten.",
+    "wantsNewsletter": "Ich möchte den Newsletter abonnieren.",
+    "submit": "Senden",
+    "success": "Vielen Dank für Ihre Unterstützung!",
+    "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+  },
+  "newsletter": {
+    "title": "Newsletter abonnieren",
+    "submit": "Abonnieren",
+    "success": "Sie sind jetzt angemeldet.",
+    "alreadySubscribed": "Diese E-Mail ist bereits angemeldet.",
+    "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+  },
+  "donate": {
+    "title": "Unterstützen Sie uns jetzt mit einer Spende",
+    "org": "Verein für Naturschutz und Demokratie",
+    "address": "3000 Bern",
+    "bank": "Fribourger Kantonalbank",
+    "iban": "CH84 0076 8300 1728 1200 5"
+  },
+  "news": {
+    "title": "News",
+    "more": "Mehr erfahren",
+    "all": "Alle News"
+  },
+  "committee": {
+    "title": "Initiativkomitee",
+    "intro": "Das Initiativkomitee, bestehend aus nachstehenden Urheberinnen und Urhebern, ist berechtigt, diese Volksinitiative mit absoluter Mehrheit seiner noch stimmberechtigten Mitglieder zurückzuziehen."
+  },
+  "footer": {
+    "orgLine": "Eidgenössische Volksinitiative «Gegen die Zerstörung unserer Wälder durch Windturbinen (Waldschutz-Initiative)».",
+    "association": "Verein für Naturschutz und Demokratie, Postfach, 3001 Bern",
+    "secondInitiative": "Unsere 2. Initiative ansehen",
+    "legal": "Impressum",
+    "privacy": "Datenschutz",
+    "copyright": "Copyright © 2026 waldschutz-ja.ch"
+  }
+}
