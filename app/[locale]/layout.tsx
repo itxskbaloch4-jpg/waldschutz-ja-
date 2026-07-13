@@ -1,19 +1,10 @@
 import { Inter } from "next/font/google";
-import localFont from "next/font/local";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { locales } from "@/i18n";
 import "../globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
-const generalSans = localFont({
-  src: [
-    { path: "../../public/fonts/GeneralSans-Semibold.woff2", weight: "600" },
-    { path: "../../public/fonts/GeneralSans-Bold.woff2", weight: "700" },
-  ],
-  variable: "--font-general-sans",
-  display: "swap",
-});
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -49,7 +40,7 @@ export default async function LocaleLayout({
 }) {
   const messages = await getMessages();
   return (
-    <html lang={locale} className={`${inter.variable} ${generalSans.variable}`}>
+    <html lang={locale} className={inter.variable}>
       <body>
         <NextIntlClientProvider messages={messages}>{children}</NextIntlClientProvider>
         <script
